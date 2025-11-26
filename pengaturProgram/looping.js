@@ -31,11 +31,26 @@ while (condition){
 */
 
 let i = 0;
-while (i < 5) {
-  console.log(`Angka ke ${i} adalah ${i}`);
-  i++;
-}
+// while (i < 5) {
+//   console.log(`Angka ke ${i} adalah ${i}`);
+//   i++;
+// }
 
 /* DO WHILE
 
 */
+
+do {
+  console.log(`Angka ini ${i} adalah ${i}`);
+  i++;
+} while (i < 5);
+
+//continue
+
+for (let x = 0; x < 10; x++) {
+  if (x === 5) {
+    continue;
+  }
+
+  console.log(x);
+}
