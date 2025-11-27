@@ -1,7 +1,8 @@
 // export default
 
-export default function myFunc() {
-  console.log("Hallo gaes");
+export default function myFunc(a, b) {
+  const result = a + b;
+  return result;
 }
 
 // named export
