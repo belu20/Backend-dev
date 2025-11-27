@@ -48,8 +48,8 @@ do {
 //continue
 
 for (let x = 0; x < 10; x++) {
-  if (x === 5) {
-    continue;
+  if (x === 3) {
+    break;
   }
 
   console.log(x);
