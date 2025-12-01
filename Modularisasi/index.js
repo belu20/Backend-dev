@@ -10,9 +10,9 @@ import unique from "./utils.js";
 import { splitString } from "./utils.js";
 
 const string = "saippuakivikauppias";
-const array = splitString(string);
-const uniqueArray = unique(array);
+const arra = splitString(string);
+const uniqueArray = unique(arra);
 
 console.log(string);
-console.log(array);
+console.log(arra);
 console.log(uniqueArray);

@@ -16,7 +16,17 @@ class IOS extends smartphone {
   }
 }
 
-const ios = new IOS("Black", "A", "Iphone");
+class ANDROID extends smartphone {
+  splitscreen() {
+    console.log("Android have a splitscreen");
+  }
+}
+
+const ios = new IOS("Black", "A", "Iphone 13");
+const andro = new ANDROID("pink", "xiomi", "Redmi 9");
 
 ios.say();
 ios.airDrop();
+
+andro.say();
+andro.splitscreen();
