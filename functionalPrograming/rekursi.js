@@ -21,3 +21,7 @@ function generateArray1(n1) {
 }
 
 console.log(generateArray1(5));
+
+/*
+JavaScript telah menyediakan banyak fungsi bawaan yang dapat digunakan untuk masalah iterasi data, seperti Array.map, Array.filter, atau Array.forEach
+*/
