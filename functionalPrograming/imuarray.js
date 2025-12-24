@@ -11,6 +11,12 @@ console.log(listItem);
 
 //menyaring array dari object siswa yang layak dapat beasiswa
 
+const truthArray = [1, "", "Halo", 0, null, "ihsan", 5].filter((truty) =>
+  Boolean(truty)
+);
+
+console.log(truthArray);
+
 const student = [
   {
     nama: "Ihsan",
