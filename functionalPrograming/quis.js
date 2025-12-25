@@ -39,7 +39,7 @@ function applyDiscount(products, discount) {
 
   return products.map((product) => ({
     ...product,
-    price: product.price * 0.9,
+    price: product.price - (product.price * discount) / 100,
   }));
 }
 
