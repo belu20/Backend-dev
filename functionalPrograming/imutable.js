@@ -38,7 +38,7 @@ function max1(arrayOfnumber1) {
 }
 
 function daftarEmail(orang, mail) {
-  // menggunakan spread operator untuk menduplikasi nila
+  // menggunakan spread operator untuk menduplikasi nilai
   return { ...orang, mail };
 }
 

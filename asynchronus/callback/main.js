@@ -35,15 +35,17 @@ makeCoffe(order, (makeCoffeError, makeCoffeData) => {
 //penerapan callback pada proses asynchronous dengan memanfaatkan salah satu Node.js API, yaitu fs untuk membaca file system.
 
 readFile("./asynchronus/callback/readme.txt", (error, data) => {
-  if (error) {
-    console.error(error);
-    return;
-  }
+  setTimeout(() => {
+    if (error) {
+      console.error(error);
+      return;
+    }
 
-  const greeting = data
-    .toString()
-    .replace("%nama%", "Ihsan")
-    .replace("%orang%", "orang-orang");
+    const greeting = data
+      .toString()
+      .replace("%nama%", "Ihsan")
+      .replace("%orang%", "orang-orang");
 
-  console.log(greeting);
+    console.log(greeting);
+  }, 10000);
 });
