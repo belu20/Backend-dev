@@ -1,0 +1,1 @@
+Halo %nama% apakabar semoga harimu baik-baik saja jangan terlalu melihat kesuksesan orang lain, kau bertahan hidup sampai saat ini pun sudah termasuk hebat dan sukses, please maafkan %orang% yang menyakitimu.
