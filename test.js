@@ -10,3 +10,9 @@ function factorial(n) {
 }
 
 console.log(factorial(3));
+
+console.log("Start");
+setTimeout(() => {
+  console.log("Middle");
+}, 1000);
+console.log("End");
